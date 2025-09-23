@@ -1,0 +1,22 @@
+# Backup configuration
+# Rename this file to config.yaml and edit as needed.
+
+# Absolute path to the source directory whose files will be backed up
+source_dir: "C:/path/to/source"
+
+# Absolute path to the backup directory where files will be copied
+backup_dir: "C:/path/to/backup"
+
+# Interval in minutes between backups
+interval_minutes: 60
+
+# KakaoTalk notification settings
+kakao:
+  # Set to true to send a KakaoTalk memo after each backup
+  enabled: false
+  # Your KakaoTalk REST API access token (Kakao OAuth 2.0 access token)
+  access_token: ""
+  # Message template. Available placeholders: {timestamp}, {files_copied}, {bytes_copied}
+  message_template: "[Backup] {timestamp} - Copied {files_copied} files, {bytes_copied} bytes"
+
+

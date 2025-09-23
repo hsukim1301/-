@@ -1,0 +1,7 @@
+source_dir: "C:/Users/김현수/Desktop/2025-2/딥러닝/data_source"
+backup_dir: "C:/Users/김현수/Desktop/2025-2/딥러닝/data_backup"
+interval_minutes: 5
+kakao:
+  enabled: true
+  access_token: ""
+  message_template: "[Backup] {timestamp} - Copied {files_copied} files, {bytes_copied} bytes" 
